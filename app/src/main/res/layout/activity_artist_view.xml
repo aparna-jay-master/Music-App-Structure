@@ -15,7 +15,7 @@
         android:paddingTop="32dp"
         android:paddingRight="64dp"
         android:paddingLeft="64dp"
-        android:paddingBottom="32dp"
+        android:paddingBottom="16dp"
         android:src="@drawable/sarab"/>
 
     <TextView
