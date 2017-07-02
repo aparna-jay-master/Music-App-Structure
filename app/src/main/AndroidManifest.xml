@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".AlbumView" />
-        <activity android:name=".ArtistView"></activity>
+        <activity android:name=".ArtistView" />
+        <activity android:name=".NowPlaying"></activity>
     </application>
 
 </manifest>

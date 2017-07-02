@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Find the View that store the album
+        // Find the View that stores the album
         ImageView theBlessedUnrest = (ImageView) findViewById(R.id.sara_album_view);
 
         // Set a click listener on that View

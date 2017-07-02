@@ -35,6 +35,7 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/brave_song"
                 android:text="Brave"
                 style="@style/songList"/>
 
