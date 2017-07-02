@@ -13,7 +13,7 @@ public class ArtistView extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_artist_view);
 
-        // Find the View that store the album
+        // Find the View that stores the album
         ImageView theBlessedUnrest = (ImageView) findViewById(R.id.blessed_unrest_album);
 
         // Set a click listener on that View

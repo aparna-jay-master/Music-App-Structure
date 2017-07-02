@@ -14,21 +14,21 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/albumart"
             android:adjustViewBounds="true"
-            android:paddingTop="16dp"
-            android:paddingRight="64dp"
+            android:paddingBottom="16sp"
             android:paddingLeft="64dp"
-            android:paddingBottom="16sp"/>
+            android:paddingRight="64dp"
+            android:paddingTop="16dp"
+            android:src="@drawable/albumart" />
 
         <TextView
             android:id="@+id/sara_bareilles"
+            style="@style/Headers"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sara Bareilles"
             android:textAlignment="center"
-            android:textStyle="bold"
-            style="@style/Headers"/>
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,12 +36,12 @@
 
             <TextView
                 android:id="@+id/brave_song"
-                android:text="Brave"
-                style="@style/songList"/>
+                style="@style/songList"
+                android:text="Brave" />
 
             <TextView
                 style="@style/songDuration"
-                android:text="3:41"/>
+                android:text="3:41" />
         </LinearLayout>
 
         <LinearLayout
@@ -49,12 +49,12 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="Chasing the Sun"
-                style="@style/songList"/>
+                style="@style/songList"
+                android:text="Chasing the Sun" />
 
             <TextView
                 style="@style/songDuration"
-                android:text="4:22"/>
+                android:text="4:22" />
         </LinearLayout>
 
         <LinearLayout
@@ -62,12 +62,12 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="Hercules"
-                style="@style/songList"/>
+                style="@style/songList"
+                android:text="Hercules" />
 
             <TextView
                 style="@style/songDuration"
-                android:text="4:22"/>
+                android:text="4:22" />
         </LinearLayout>
 
         <LinearLayout
@@ -75,12 +75,12 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="Manhattan"
-                style="@style/songList"/>
+                style="@style/songList"
+                android:text="Manhattan" />
 
             <TextView
                 style="@style/songDuration"
-                android:text="4:39"/>
+                android:text="4:39" />
         </LinearLayout>
 
         <LinearLayout
@@ -88,12 +88,12 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="Satellite Call"
-                style="@style/songList"/>
+                style="@style/songList"
+                android:text="Satellite Call" />
 
             <TextView
                 style="@style/songDuration"
-                android:text="4:51"/>
+                android:text="4:51" />
         </LinearLayout>
 
         <LinearLayout
@@ -101,12 +101,12 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="Little Black Dress"
-                style="@style/songList"/>
+                style="@style/songList"
+                android:text="Little Black Dress" />
 
             <TextView
                 style="@style/songDuration"
-                android:text="3:32"/>
+                android:text="3:32" />
         </LinearLayout>
 
         <LinearLayout
@@ -114,12 +114,12 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="Cassiopeia"
-                style="@style/songList"/>
+                style="@style/songList"
+                android:text="Cassiopeia" />
 
             <TextView
                 style="@style/songDuration"
-                android:text="3:33"/>
+                android:text="3:33" />
         </LinearLayout>
 
         <LinearLayout
@@ -127,12 +127,12 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="1000 Times"
-                style="@style/songList"/>
+                style="@style/songList"
+                android:text="1000 Times" />
 
             <TextView
                 style="@style/songDuration"
-                android:text="4:30"/>
+                android:text="4:30" />
         </LinearLayout>
 
         <LinearLayout
@@ -140,12 +140,12 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="I Choose You"
-                style="@style/songList"/>
+                style="@style/songList"
+                android:text="I Choose You" />
 
             <TextView
                 style="@style/songDuration"
-                android:text="3:39"/>
+                android:text="3:39" />
         </LinearLayout>
 
         <LinearLayout
@@ -153,12 +153,12 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="Eden"
-                style="@style/songList"/>
+                style="@style/songList"
+                android:text="Eden" />
 
             <TextView
                 style="@style/songDuration"
-                android:text="4:06"/>
+                android:text="4:06" />
         </LinearLayout>
 
         <LinearLayout
@@ -166,12 +166,12 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="Islands"
-                style="@style/songList"/>
+                style="@style/songList"
+                android:text="Islands" />
 
             <TextView
                 style="@style/songDuration"
-                android:text="4:21"/>
+                android:text="4:21" />
         </LinearLayout>
 
         <LinearLayout
@@ -179,12 +179,12 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="December"
-                style="@style/songList"/>
+                style="@style/songList"
+                android:text="December" />
 
             <TextView
                 style="@style/songDuration"
-                android:text="5:01"/>
+                android:text="5:01" />
         </LinearLayout>
 
     </LinearLayout>

@@ -30,7 +30,7 @@ public class AlbumView extends AppCompatActivity {
             }
         });
 
-        // Find the song id
+        // Find the song
         TextView braveSong = (TextView) findViewById(R.id.brave_song);
 
         // Set a click listener on that View
