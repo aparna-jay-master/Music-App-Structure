@@ -5,17 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingBottom="32dp"
     tools:context="com.example.android.musicplayer.ArtistView">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="This activity gives more information about the specific artist. I would get the list of albums externally." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="From this activity you can navigate to the Album page" />
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:paddingBottom="16dp"
-        android:paddingLeft="64dp"
-        android:paddingRight="64dp"
-        android:paddingTop="32dp"
+        android:paddingLeft="80dp"
+        android:paddingRight="80dp"
+        android:paddingTop="8dp"
         android:src="@drawable/sarab" />
 
     <TextView
@@ -35,7 +46,8 @@
 
     <HorizontalScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="96dp"
+        android:layout_marginBottom="16dp"
         android:scrollbars="none">
 
         <LinearLayout
@@ -74,5 +86,11 @@
         </LinearLayout>
 
     </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/back_home_artist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back Home" />
 
 </LinearLayout>

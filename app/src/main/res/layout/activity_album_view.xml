@@ -11,6 +11,18 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="This activity is the album view which shows the songs that make an album. I would get the details about the album such as album art, songs, and length of song from an external resource." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="From this activity you can navigate to the Artist page or to the Now Playing page by clicking a song." />
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

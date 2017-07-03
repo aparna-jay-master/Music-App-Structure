@@ -19,6 +19,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:text="This activity would be a payment page to upgrade to the Premium plan." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
         android:text="To accept PayPay payments I would download the PayPal SDK and include those components in the app" />
 
     <TextView
@@ -26,5 +32,28 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:text="I would need to have a PayPal id which would be inputted into the app along with price" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="Back Home" />
+
+        <Button
+            android:id="@+id/now_playing_payment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="Now Playing" />
+
+    </LinearLayout>
 
 </LinearLayout>

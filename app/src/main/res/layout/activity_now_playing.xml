@@ -7,6 +7,18 @@
     android:orientation="vertical"
     tools:context="com.example.android.musicplayer.NowPlaying">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="This activity is the Now Playing screen where songs would be playing. The album art would come from an API along with the actual media file being played" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="In this activity you can go to the Artist Page and to the Album Page." />
+
     <ImageView
         android:id="@+id/blessed_unrest_album_np"
         android:layout_width="match_parent"
